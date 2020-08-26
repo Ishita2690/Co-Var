@@ -1,0 +1,5 @@
+#!/bin/sh
+`sed -e 's/, /\n/g' betweenness.out > betweenness`
+`sed -e 's/, /\n/g' degree.out > degree`
+`sed -e 's/, /\n/g' closeness.out > closeness`
+`sed -e 's/, /\n/g' clustering.out > clustering`
