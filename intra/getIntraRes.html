@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> Results- Co-Var Server </title>
+
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <hr>
+                    <h2 > <strong> Results of Co-evolution analysis </strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <!--img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt=""-->
+                    <h7 class="result-text text-center"> <strong> || Co-evolving positions based on the intra-protein analysis || </strong>
+                        <br>
+                        <small> <b> Reference sequence mapped representation of co-evolving positions </b> </small> <br> 
+                    </h7>
+                    <p> Intra-molecular co-evolving positions have been selected based on the z-score threshold specified. The Co-Var score and z-score of significant co-evolving positions are depicted in the plots below where residue positions are depicted accross the x and y axis. </p>
+                    <!--a href="#" class="btn btn-default btn-lg">Read More</a-->
+
+                    <img src="SeqZplot.png" alt="" width="600" height="600">  
+                    <img src="SeqCoVarplot.png" alt="" width="600" height="600"> <br> 
+		    <p>  
+                        
+ </p>
+                    <!--p> lower z-scores and lower co-var scores represent highly co-evolving positions. </p-->
+                     <a href="SeqwiseResults" class="btn btn-default btn-lg"> Download file with complete list </a>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <!--img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt=""-->
+                    <h7 class="result-text text-center"> <strong> || Reference structure based analysis of co-evolving positions || </strong> 
+                        <br>
+                        <small> Co-evolving positions in close proximity </small> <br>
+                    </h7>
+                    <p> residues in close proximity that co-evolve </p>
+<script src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+ <div style="height: 500px; width: 750px; position: relative; margin: 0 auto;" class='viewer_3Dmoljs' data-pdb='1EUD' data-backgroundcolor='0xffffff' data-select1='chain:A' data-style1='cartoon:opacity:0.5'  data-surface1='opacity:.5;color:aqua' data-select2='resi:347,348,338,341,317,318,55,91,12,253,172,176,349,354,;chain:A' data-style2='stick:color=blue' data-labelres2='backgroundOpacity:0.8;fontSize:14;backgroundColor:blue'> </div>
+                    <!--a href="#" class="btn btn-default btn-lg">Read More</a-->
+
+		<!--p> residues in close proximity that co-evolve </p-->
+                </p>
+                 <a href="CloseResidues" class="btn btn-default btn-lg"> Download list of co-evolving positions in close proximity </a>
+
+	          
+		<br><br>
+                <h7 class="result-text text-center">
+                         <small> Distance distribution analysis of co-evolving positions </small>
+                    </h7>
+                    <p> Inter-residue distances of co-evolving positions </p>
+                    <!--a href="#" class="btn btn-default btn-lg">Read More</a-->
+
+                <img src="StrucIntCoEvo.png" alt="" width="600" height="750"> <br>
+                <!--p> Inter-residue distances of co-evolving positions </p-->
+                    <a href="StrucwiseResults" class="btn btn-default btn-lg"> Download list of reference structure mapped co-evolving positions  </a>
+
+
+
+
+
+		<hr>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright  <img class="img-foot" src="../img/Logo-CoVAR.png" alt=""> &copy; SaikatLab 2019 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
