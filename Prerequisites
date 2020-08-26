@@ -1,0 +1,11 @@
+To calculate co-evolutionary pairings the following installations are required. 
+
+
+1. install mafft;
+2. install R; install R package ggplot2; install R package plot3D;
+3. install NetworkX;
+
+for intra-protein analysis refer folder intra
+for inter-protein analysis refer folder inter
+for protein-dna analysis refer folder prot-dna
+for protein-rna analysis refer folder prot-rna 
