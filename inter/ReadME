@@ -1,0 +1,14 @@
+For inter-protein analysis run the following scripts in order. Results will be generated in output directory specified. Summary of results can be viewed in the browser by opening the file 'ResInterProt.html'
+
+./wrapper-combi-Inter [sequence/alignment file (Family A)] [sequence/alignment file (Family B)] [input type] [threshold] [output dir]
+
+./strucresAnal-IP  [Reference structure PDB file]  [chain ID of reference sequence A] [chain ID of reference sequence B]  [input sequence/alignment file (family A)]  [input sequence/alignment file (family B)] [threshold] [output dir] [PDB id] [distance threshold]
+
+
+Input options:
+[sequence/alignment file] = /path/to/file/workingDir/filename.fa
+[Reference structure PDB file] = /path/to/file/workingDir/file.pdb
+[input type] = sequence or msa
+[threshold] = z-score threshold (default: -1)
+[output dir] = working Directory 
+[PDB ID] = PDB code of reference structure
